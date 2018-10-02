@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Строительная компания</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class=" header">					<!-- ШАПКА И МЕНЮ-->
+		<div class="contact_phone">
+			<div id = "text">Контактный телефон</div>
+			<div id = "phone"><span>8(495)</span>67-67-123</div>
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="#" id = "main">главная</a></li>
+				<li><a href="#">выставка</a></li>
+				<li><a href="#">каталог компаний</a></li>
+				<li><a href="#">новости</a></li>
+				<li><a href="#">форум</a></li>
+				<li><a href="#">партнеры</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<div class="row first">				<!--ПРОЭКТИРОВАНИЕ, ПРОИЗВОДСТВА, МОНТАЖ-->
+
+		<div class="kind_of_work" id = "project">		<!-- ПРОЭКТИРОВАНИЕ -->
+			<div class = "image" id = "progect_img">
+				<img src="row1/project.png" alt="">
+			</div>
+			<div class = "description">
+				<p class = "heading">проэктирование</p>
+				<p class="sub_heading">Комплексная разработка</p>
+				<a href = "#">подробнее</a>
+			</div>
+		</div>
+
+		<div class="kind_of_work" id = "develop">		<!-- ПРОИЗВОДСТВО -->
+			<div class = "image" id = "develop_img">
+				<img src="row1/develop.png" alt="">
+			</div>
+			<div class = "description">
+				<p class = "heading">производство</p>
+				<p class="sub_heading">Строительные работы</p>
+				<a href = "#">подробнее</a>
+			</div>
+		</div>
+
+		<div class="kind_of_work" id = "set_up">		<!-- МОНТАЖ -->
+			<div class = "image" id = "set_up_img">
+				<img src="row1/set_up.png" alt="">
+			</div>
+			<div class = "description">
+				<p class = "heading">монтаж</p>
+				<p class="sub_heading">Монтаж и обслуживание</p>
+				<a href = "#">подробнее</a>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="row second">		<!--НОВОСТИ, О КОМПАНИИ, ОНЛАЙН-ЗАКАЗ, ПРЕДЛАГАЕМЫЕ УСЛУГИ-->
+
+		<div class = "news">
+			<h1 id = "second_row_h">новости</h1>
+			<ul>
+				<li><span>21.09.2012</span><span class="vert_line"><sup>&nbsp|&nbsp</sup></span></span><a href="#">Разработан проект для многоэтажного дома в городе Москва</a></li>
+				<li><span>21.09.2012</span><span class="vert_line"><sup>&nbsp|&nbsp</sup></span></span><a href="#">Разработан проект для многоэтажного дома в городе Москва</a></li>
+				<li><span>21.09.2012</span><span class="vert_line"><sup>&nbsp|&nbsp</sup></span></span><a href="#">Разработан проект для многоэтажного дома в городе Москва</a></li>
+				<li><span>21.09.2012</span><span class="vert_line"><sup>&nbsp|&nbsp</sup></span></span><a href="#">Разработан проект для многоэтажного дома в городе Москва</a></li>
+			</ul>
+			<a class = "all_news" href = "#">Посмотреть все новости</a>
+		</div>
+
+		<div class="about_company">
+			<h1 id = "second_row_h">о компании</h1>
+			<p class = "text_content">Уралстрой портал ведущий строительный портал Екатиренбурга и Уральского региона, объединяющий интересы строительных компаний, бригад, дизайнеров по интеръеру и поставщиков строительных материалов, инструмента и техники с интересами заказчиков строительной продукции, работ и услуг. Более 8 лет Уралстройпортал активно учасвствует в информационной жизни строительного рынка, Екатиренбурга, Челябинска, Тюмени, предоставляя наиболее востребованую информацию о тендерах, ценах на строй материалы, помогая выбирать надежных партнеров, для жилищного, загородного и промышленного строительства, а также решить вопросы ремонта, отделки квартир и офисов.</p>
+		</div>
+	</div>
+
+
+	<div class="row third">		<!-- ОНЛАЙН ЗАКАЗ -->
+
+		<div class = "online_order">
+			<h1>онлайн-заказ</h1>
+			<p class = "description">Вы можете сделать онлайн заказ или проконсультироваться у наших специалистов</p>
+			<div class = "button">
+				<div id = "arrow">
+					<img src = "row2/arrow.png">
+				</div>
+				<div id = "text">
+					<p>Заказ</p>
+					<p>Нажмите для заказа</p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "list_of_works">
+			<h1>предлагаемые услуги</h1>
+			<ul id = "first">
+				<li><a href="#">- Усиление конструкций зданий и сооружений</a></li>
+				<li><a href="#">- Бетонные и железобетонные работы</a></li>
+				<li><a href="#">- Устройство внутренних инженерных систем</a></li>
+				<li><a href="#">- Земляные работы. Работы нулевого цикла</a></li>
+				<li><a href="#">- Реставрационные работы</a></li>
+				<li><a href="#">- Благоустройство территорий</a></li>
+				<li><a href="#">- Усиление конструкций зданий и сооружений</a></li>
+			</ul>
+			<ul id = "second">
+				<li><a href="#">- Усиление конструкций зданий и сооружений</a></li>
+				<li><a href="#">- Бетонные и железобетонные работы</a></li>
+				<li><a href="#">- Устройство внутренних инженерных систем</a></li>
+				<li><a href="#">- Земляные работы. Работы нулевого цикла</a></li>
+				<li><a href="#">- Реставрационные работы</a></li>
+				<li><a href="#">- Благоустройство территорий</a></li>
+				<li><a href="#">- Усиление конструкций зданий и сооружений</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<div class="row fourth">		<!--НАШИ ПРОЭКТЫ-->
+
+		<h1>наши проэкты</h1>
+		<div class = "left_arrow "></div> <!--стрелка влево-->
+		<div class = "slider">
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class="slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class="slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class="slider_item" id = "zz">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item" id = "zz">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+			<div class = "slider_item" id = "zz">
+				<img src="row4/card.png" width = "160">
+				<p id = "kind_of_building"><a href = "#">строение</a></p>
+				<p id = "city">г.Москва</p>
+				<p id ="price"><i>Цена: </i><span>1.500 000</span> руб.</p>
+			</div>
+		</div>
+
+		<div class="right_arrow" ></div> <!--СТРЕЛКА ВПРАВО-->
+
+		<p class = "text_content">
+			Уралстрой портал ведущий строительный портал Екатиренбурга и Уральского региона, объединяющий интересы строительных компаний, бригад, дизайнеров по интеръеру и поставщиков строительных материалов, инструмента и техники с интересами заказчиков строительной продукции, работ и услуг. Более 8 лет Уралстройпортал активно учасвствует в информационной жизни строительного рынка, Екатиренбурга, Челябинска, Тюмени, предоставляя наиболее востребованую информацию о тендерах, ценах на строй материалы, помогая выбирать надежных партнеров, для жилищного, загородного и промышленного строительства, а также решить вопросы ремонта, отделки квартир и офисов.
+		</p>
+	</div>
+
+	<div class="row footer">		<!--ПОДВАЛ-->
+		<div class = "footer_menu">
+			<ul>
+				<li><a href="#">главная</a></li>
+				<li><a href="#">выставка</a></li>
+				<li><a href="#">каталог компаний</a></li>
+				<li><a href="#">новости</a></li>
+				<li><a href="#">форум</a></li>
+				<li><a href="#">партнеры</a></li>
+				<li><a href="#">о сайте</a></li>
+			</ul>
+		</div>
+		<div class = contacts>
+			<div class="adress">
+				<p class="info">
+					Москва 101000,
+				</p>
+				<p class="info">
+					метро павелецкая, ул. Наваторов, дом
+				</p>
+				<p class="info">
+					22стр. 1,2 этаж, офис 9
+				</p>
+				<a href = "#">как нас найти</a>
+			</div>
+			<div class="working_time">
+				<p class = "info">
+					Работаем по будням с 10.00 до 19.00
+				</p>
+				<p class = "phone_number">
+					(495)980-21-65
+				</p>
+				<p class="phone_number">
+					(495)901-21-36
+				</p>
+				<p class="info">
+					info@stroyinfo.ru
+				</p>
+			</div>
+			<div class="link">
+				<a href = "#">
+					www.sroyinfo.ru
+				</a>
+				<p class = "info">
+					Сайт строительной компании Стройинфо
+				</p>
+				<p class="copyright">
+					&copy 2000-2012 "Стройинфо"
+				</p>
+				
+			</div>
+		</div>
+	</div>
+	<!-- ФУНКЦИОНАЛ СЛАЙДЕРА -->
+	<script src="scripts.js"></script>
+</body>
+</html>
